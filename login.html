@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- <header>
+        <div class="navbar">
+            <img width=85px src="logo.png" alt="">
+            <div class="icon">
+                <h2 class="logo">Education Pathshala</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="contect.html">CONTACT US</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a target="_blank" href="fback.html">FEEDBACK</a></li>
+                </ul>
+                <div class="loginandsignup button">
+                    <a href="regi.html"><button>Sighup</button></a>
+                    <a href="login.html"><button>Login</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="nav2">
+            <a target="" href="pg1.html"><img width="30" src="home icon.png" alt=""></a>
+            <marquee behavior="alternate" direction="right" width="40%">
+                <h4>Select Course 👉</h4>
+            </marquee>
+            <span>
+                <li><a href="bca.html">BCA</a></li>
+                <li><a href="#">BBA</a></li>
+                <li><a href="#">BA</a></li>
+                <li><a href="#">BSC</a></li>
+                <li><a href="#">B.COM</a></li>
+            </span>
+        </div>
+    </header> -->
+    <!-- <div class="main"> -->
+        <div class="container">
+            <div class="pic"></div>
+            <div class="formbox">
+                <img src="logo.png" alt="">
+                <h2>Education Pathshala</h2>
+                <p>Welcome back!</p>
+                <br>
+                <h2>Login Here</h2>
+                <div class="login-container">
+                    <form id="loginForm">
+                        <input type="text" placeholder="Username" id="username" name="username" required><br>
+
+                        <input type="password" placeholder="Password" id="password" name="password" required><br><br>
+
+                        <input type="checkbox" id="showPasswordCheckbox" onchange="togglePasswordVisibility()">
+                        <label for="showPasswordCheckbox">Show Password</label><br><br>
+
+
+                        <button type="submit">Login</button>
+                        <p id="loginMessage"></p>
+                        <div class="switch">
+                            <p>Don't have an account? <a href="regi.html" onclick="toggleForm()">SignUp</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div><br>
+    </div>
+    <script src="ulogin.js"></script>
+</body>
+
+</html>

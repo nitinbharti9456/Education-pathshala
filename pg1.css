@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+.main {
+    margin-top: -50px;
+    background-image: url(Untitled-1\ copy.jpg);
+    background-size: contain;
+
+}
+
+.navbar {
+    background-color: white;
+    height: 105px;
+    margin: auto;
+}
+
+.navbar img {
+    padding-top: 10px;
+    padding-left: 15px;
+    float: left;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 15px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu {
+    float: right;
+    height: 40px;
+    margin: auto;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 20px;
+    margin-top: 11px;
+    font-size: 14px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.menu ul li a:hover {
+    color: #ff7200;
+}
+
+.logbuttons h2 {
+    color: #160be4;
+    float: right;
+    margin-right: 10px;
+}
+.logbuttons span {
+    margin-left: 10px;
+    color: #e43e0b;
+    float: right;
+    margin-right: 15px;
+}
+
+.menu button {
+    padding: 5px;
+    border: none;
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px #0c0c0c73;
+}
+.menu button:hover{
+    box-shadow: 2px 2px 1px #04afde73;
+   transform: scale(1.1);
+}
+
+.nav2 {
+    border: 2px solid black;
+    background-color: rgb(244, 232, 274);
+    height: 50px;
+    margin-top: -1px;
+    box-shadow: 0px 1px 10px 0px;
+}
+
+.nav2 img {
+    margin-left: 30px;
+}
+
+.nav2 h4 {
+    position: relative;
+    font-size: 20px;
+    margin-top: 13px;
+    margin-left: 20px;
+    color: #0c0c0c;
+    font-family: Arial;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+
+.nav2 span {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav2 span li {
+    list-style: none;
+    margin-right: 80px;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+
+.nav2 span li a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+.nav2 li :hover {
+    color: #2600ff;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #dedeeb;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgb(180, 180, 177);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(147, 147, 145);
+}
+
+.picc {
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+.inside {
+    margin-top: -350px;
+    margin-left: 100px;
+}
+
+.inside h1 {
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(48, 47, 47);
+}
+
+.out {
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 700px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 0px 10px 20px 0px rgb(191, 22, 233);
+    border-radius: 10px;
+}
+
+.out img {
+    margin-top: 7px;
+    margin-left: 7px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.out h1 {
+    margin-left: 130px;
+    margin-top: -160px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(161, 43, 240);
+    text-align: center;
+}
+
+.box {
+    margin-left: 60px;
+    width: 1000px;
+    height: 240px;
+    border: 0px solid black;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.479);
+    box-shadow: 0px 10px 20px 0px rgb(74, 4, 238);
+}
+
+.box h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.box span {
+    color: red;
+}
+
+.box p {
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 30px;
+    color: rgb(251, 131, 3);
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+}
+
+.box img {
+    margin-top: -200px;
+    margin-right: 25px;
+    float: right;
+    border: 0px;
+    border-radius: 30px;
+}

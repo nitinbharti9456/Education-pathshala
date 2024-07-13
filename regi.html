@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="regi.css">
+    <title>SignUp</title>
+</head>
+
+<body>
+    <!-- <header>
+        <div class="navbar">
+            <img width=85px src="logo.png" alt="">
+            <div class="icon">
+                <h2 class="logo">Education Pathshala</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="contect.html">CONTACT US</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a target="_blank" href="fback.html">FEEDBACK</a></li>
+                </ul>
+                <div class="loginandsignup button">
+                    <a href="regi.html"><button>Sighup</button></a>
+                    <a href="login.html"><button>Login</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="nav2">
+            <a target="" href="pg1.html"><img width="30" src="home icon.png" alt=""></a>
+            <marquee behavior="alternate" direction="right" width="40%">
+                <h4>Select Course 👉</h4>
+            </marquee>
+            <span>
+                <li><a href="bca.html">BCA</a></li>
+                <li><a href="#">BBA</a></li>
+                <li><a href="#">BA</a></li>
+                <li><a href="#">BSC</a></li>
+                <li><a href="#">B.COM</a></li>
+            </span>
+        </div>
+    </header>
+    <div class="main"> -->
+    <div class="container">
+        <div class="pic"></div>
+        <div class="formbox">
+            <img src="logo.png" alt="">
+            <h2>Education Pathshala</h2>
+            <p>Welcome</p>
+            <br>
+            <h2>SignUp Here</h2>
+            <br>
+            <div class="login-container">
+
+                <form action="sighup.php" id="registrationForm" method="post">
+
+                    <input type="text" placeholder="Username" id="username" name="username" required><br>
+
+                    <input type="email" placeholder="Email" id="email" name="email" required><br>
+
+                    <input type="password" placeholder="Create Password" id="password" name="password" required><br>
+
+                    <input type="checkbox" id="showPasswordCheckbox" onchange="togglePasswordVisibility()">
+                    <label for="showPasswordCheckbox">Show Password</label><br><br>
+
+                    <button type="submit">SignUp</button>
+                </form>
+                <p id="registrationMessage"></p>
+                <div class="switch">
+                    <p>Already have an account? <a href="login.html" onclick="toggleForm()">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div><br> <br> <br>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="ureg.js"></script>
+</body>
+
+</html>
